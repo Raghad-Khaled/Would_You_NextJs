@@ -65,7 +65,7 @@ export default function AddQuestion() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button onClick={handleSubmit} size="large">Submit</Button>
+        <Button disabled={optionone==""||optiontwo==""} onClick={handleSubmit} size="large">Submit</Button>
       </CardActions>
     </Card>
     </Grid>

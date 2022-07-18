@@ -8,6 +8,7 @@ import { OneQ } from '../types/onequestion';
 import LinearProgress, { LinearProgressProps } from '@mui/material/LinearProgress';
 import Box from '@mui/material/Box';
 import { useUser } from '@auth0/nextjs-auth0';
+import Image from 'next/image'
 
 
 type OneQuestion={
@@ -36,7 +37,7 @@ export default function AnsweredCard( props: OneQuestion) {
     const { user} = useUser();
     const userName=user?.nickname? user.nickname : ""
     const answeredOne=props.question.optionOne.votes.includes(userName);
-    const image=<img src="https://img.icons8.com/fluency/35/000000/checked-checkbox.png"/>
+    const image=<Image width="35" height="35" alt="selected" src="https://img.icons8.com/fluency/35/000000/checked-checkbox.png"/>
   return (
     <>
     <Grid container justifyContent="center">

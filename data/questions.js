@@ -2,6 +2,7 @@ export let questions = {
   "xf0y6ziyjabvozdd253nd":{
       id: 'xf0y6ziyjabvozdd253nd',
       author: 'raghad200059',
+      avatarURL:"https://react.semantic-ui.com/images/avatar/large/molly.png",
       timestamp: 1467166872634,
       optionOne: {
         votes: ['raghad200059'],
@@ -15,6 +16,7 @@ export let questions = {
     "ni6ok3ym7mf1p33lnez":{
       id: 'ni6ok3ym7mf1p33lnez',
       author: 'johndoe',
+      avatarURL:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKAHyktHuE5u7VrhXwSz2Y3onWI0fLpXVAFw&usqp=CAU",
       timestamp: 1468479767190,
       optionOne: {
         votes: [],
@@ -28,6 +30,7 @@ export let questions = {
     "am8ehyc8byjqgar0jgpub9":{
       id: 'am8ehyc8byjqgar0jgpub9',
       author: 'raghad200059',
+      avatarURL:"https://react.semantic-ui.com/images/avatar/large/molly.png",
       timestamp: 1488579767190,
       optionOne: {
         votes: [],
@@ -41,6 +44,7 @@ export let questions = {
     "loxhs1bqm25b708cmbf3g":{
       id: 'loxhs1bqm25b708cmbf3g',
       author: 'tylermcginnis',
+      avatarURL:"https://react.semantic-ui.com/images/avatar/large/matthew.png",
       timestamp: 1482579767190,
       optionOne: {
         votes: [],
@@ -54,6 +58,7 @@ export let questions = {
     "vthrdm985a262al8qx3do":{
       id: 'vthrdm985a262al8qx3do',
       author: 'tylermcginnis',
+      avatarURL:"https://react.semantic-ui.com/images/avatar/large/matthew.png",
       timestamp: 1489579767190,
       optionOne: {
         votes: ['tylermcginnis'],
@@ -67,6 +72,7 @@ export let questions = {
     "xj352vofupe1dqz9emx13r":{
       id: 'xj352vofupe1dqz9emx13r',
       author: 'johndoe',
+      avatarURL:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKAHyktHuE5u7VrhXwSz2Y3onWI0fLpXVAFw&usqp=CAU",
       timestamp: 1493579767190,
       optionOne: {
         votes: ['johndoe'],

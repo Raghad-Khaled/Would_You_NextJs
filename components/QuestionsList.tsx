@@ -18,7 +18,7 @@ export default function QuestionsList( props: QuestionProps) {
     <>
     {
         props.questionsid.map((question)=>{
-          return <AskCard question={props.questions[question]} authorimg={props.users[props.questions[question].author]?.avatarURL}/>
+          return <AskCard key={question} question={props.questions[question]} />
         })
     }
     </>

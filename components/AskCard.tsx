@@ -6,22 +6,12 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import {CardActions } from '@mui/material';
 import Link from "next/link";
+import Image from 'next/image'
+import { OneQ } from '../types/onequestion';
 
 
-type QuestionProps ={ question:{
-    id: string,
-    author: string,
-    timestamp: number,
-    optionOne: {
-    votes: Array<string>,
-    text: string,
-    },
-    optionTwo: {
-    votes: Array<string>,
-    text: string,
-    }
-},
-authorimg:string
+type QuestionProps ={ 
+  question:OneQ
 }
 
 export default function AskCard( props: QuestionProps) {
@@ -38,7 +28,7 @@ export default function AskCard( props: QuestionProps) {
         <CardMedia
           component="img"
           height="200"
-          image={props.authorimg}
+          image={props.question.avatarURL}
           alt="green iguana"
         />
         <CardContent>

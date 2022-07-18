@@ -9,6 +9,8 @@ import Box from '@mui/material/Box';
 import { useUser } from '@auth0/nextjs-auth0';
 import Navbar from './Navbar';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import Link from "next/link"
+import Image from "next/image"
 
 const darkTheme = createTheme({
     palette: {
@@ -53,7 +55,7 @@ export default function Protecter(props:ProtecterProps) {
       <Grid container justifyContent="center">
          <Button size="large" sx={{backgroundColor: darkTheme.palette.background.default, color:darkTheme.palette.text.primary}} 
           variant="contained">
-            <a href="/api/auth/login">Login</a>
+            <Link href="/api/auth/login"> <a >Login</a> </Link>
           </Button>
       </Grid>
       </ThemeProvider>
